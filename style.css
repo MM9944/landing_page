@@ -14,6 +14,7 @@
     justify-content: space-between;
     margin-left: 100px;
     margin-right: 100px;
+    padding: 16px;
 
 
 }
@@ -22,11 +23,18 @@
 ul {
     display: flex;
     list-style: none;
+    gap: 16px;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: #E5E7EB;
 }
 
 .title {
