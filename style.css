@@ -13,10 +13,8 @@
 
 .headertop {
     display: flex;
-    justify-content: space-between;
-    margin-left: 205px;
-    margin-right: 250px;
-    padding: 16px;
+    justify-content: space-around;
+    padding-top: 16px;
     
 
 
@@ -26,6 +24,7 @@
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
+   
     
 }
 
@@ -49,20 +48,21 @@ a {
    
     display: flex;
     justify-content: space-around;
-
-    margin-left: 100px;
-    margin-right: 100px;
-    padding-top: 100px;
+    align-content: center; 
+    padding-top: 100px; 
+    padding-bottom: 100px ;
+    margin-right: 330px;
+    margin-left: 230px;
 
 
 }
 .title {
-    display: flex;
+    
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
-    max-width: 444PX;
-  
+    padding-bottom: 8px;
+ 
     
 
 }
@@ -74,21 +74,17 @@ a {
     font-size: 18px;
     color: #E5E7EB;
     max-width: 444PX;
+    padding-bottom: 8px;
 
 }
 
 
-
-
-
-
 img {
    
-    max-height: 200PX;
+    max-height: 220PX;
     max-width: 500PX;
-    width: 500PX;
-    margin-left: 475px;
-    margin-right: 100px;
+    width: 500PX; 
+    
     
     
 }
@@ -99,9 +95,5 @@ button {
     padding: 5px 20px;
     border-radius: 8px;
     border: none;
-    
-    
-
-
 
 }
