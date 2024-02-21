@@ -138,18 +138,43 @@ button {
     margin-top: 160px;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
  
 .thor {
     color: #1F2937;
-    background-color: #E5E7EB;
     font-style: italic;
     font-size: 36px;
     padding: 100px;
     padding-right: 350px;
     padding-left: 350PX;
+    padding-bottom: 0px;
+    margin-bottom: 50px;
+   
     
  
 }
+
+.sig {
+    color: #1F2937;
+    font-weight: bold;
+    padding-bottom: 100px;
+    margin-right: -450px;
+    margin-top: -60PX;
+    font-size: 30px;
+  
+    
+    
+
+}
+
 
 
 
