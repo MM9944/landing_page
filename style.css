@@ -184,14 +184,16 @@ button {
   
     background-color: #3882F6;
     color: white;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding: 32px;
+    margin-left: 325px;
+    margin-right: 325px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 40px;
+    border-radius: 6px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+
     
   
    
@@ -204,6 +206,7 @@ button {
 .end button{
     background-color: #3882F6;
     color: white;
+    font-weight: bold;
     padding: 5px 20px;
     border-radius: 8px;
     border: 2px solid white;
